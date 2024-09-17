@@ -5,10 +5,10 @@ const Footer = () => {
         <>
             <div className='absolute z-10 w-full bg-fixed bg-IMG3 bg-contain sm:bg-cover '>
 
-                <div className='w-full relative text-center h-auto pt-24 flex flex-col justify-center items-center text-white sm:flex-col-2'>
+                <div className='w-full relative text-center h-auto pt-24 flex flex-col justify-center items-center text-white sm:flex-col-2 px-10 md:px-0'>
                     <div className='w-full md:flex md:justify-evenly md:items-start text-start flex-col-2 justify-evenly items-center sm:text-[14px] md:text-x text-xs sm:px-16 md:px-10'>
                         <div>
-                            <h1 className='md:w-[25rem] text-4xl font-bold italic'><span className='text-red-500'>Blood Bank & </span>Donar Management System</h1>
+                            <h1 className='md:w-[25rem] text-4xl font-bold italic'><span className='text-red-500 italic'>Blood Bank & </span>Donar Management System</h1>
                             <i className="las la-syringe md:text-4xl text-[14px] mr-2 my-8"></i>
                             <p className='md:w-[25rem]'>Sed ut perspiciatis unde omnis iste natus error sit voluptatem
                                 accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo
@@ -38,7 +38,7 @@ const Footer = () => {
                             </ul>
                         </div>
                     </div>
-                    <hr className='md:w-[71%] sm:w-96 h-[1px] md:mt-20 mt-4 sm:mt-4 bg-white' />
+                    <hr className='md:w-[71%] w-96 h-[1px] md:mt-20 mt-4 sm:mt-4 bg-white' />
                     <p className='mt-6 sm:mt-2 pb-12 md:text-[14px] text-[12px]'>© Blood Bank Donor Management System Design By <span><a href="" className='hover:text-red-500 delay-100'>Ankit Chouhan</a></span></p>
                 </div>
             </div>

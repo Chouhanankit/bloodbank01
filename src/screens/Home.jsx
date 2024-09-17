@@ -6,6 +6,7 @@ import Footer from '../components/Footer'
 import DoctorInfo from '../components/DoctorInfo'
 import DonarInfo from '../components/DonarInfo'
 import Info from '../components/Info'
+import Donate from '../components/Donate'
 
 const Home = () => {
     return (
@@ -14,6 +15,7 @@ const Home = () => {
             <NavB />
             <Carousel />
             <DoctorInfo />
+            <Donate/>
             <DonarInfo />
             <Info />
             <Footer />
