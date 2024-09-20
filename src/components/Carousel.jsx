@@ -24,7 +24,7 @@ const Carousel = () => {
 
     useEffect(() => {
         const interval = setInterval(() => {
-            // handleNext();
+            handleNext();
         }, 3000);
 
         return () => {
