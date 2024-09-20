@@ -11,10 +11,10 @@ const Info = () => {
                     <i class="las la-stethoscope md:text-4xl text-2xl text-red-500"></i>
                     <hr className='md:w-24 w-12 h-[2px] bg-black' />
                 </span>
-                <p className='text-[15px] text-center mb-10'>Blood group of any human being will mainly fall in any one of the following groups..</p>
+                <p className='text-[16px] md:text-xl text-center mb-10 px-3'>Blood group of any human being will mainly fall in any one of the following groups..</p>
 
 
-                <div className='w-full md:flex sm:flex-col-2 sm:justify-center px-10 md:px-0 justify-evenly items-center'>
+                <div className='w-full md:flex sm:flex-col-2 md:text-[18px] sm:justify-evenly px-10 md:px-0 justify-evenly items-center'>
                     <div>
                         <ul>
                             <li className='font-semibold list-disc'>A positive or A negative</li>
@@ -30,7 +30,7 @@ const Info = () => {
                 </div>
 
 
-                <div className='w-full md:flex sm:flex-col-2 px-10 md:px-0 justify-evenly items-center my-10'>
+                <div className='w-full md:flex sm:flex-col-2 md:text-[18px] px-10 md:px-0 justify-evenly items-center my-10'>
                     <div>
                         <button className='bg-black text-white p-2 px-4 my-'>Read More</button>
                     </div>

@@ -24,7 +24,7 @@ const NavB = () => {
                     <span className='text-red-500'>D</span>
                     <span className='text-red-500'>M</span>
                     <span className='text-red-500'>S</span>
-                    <i className="las la-syringe md:text-3xl text-2xl ml-2 md:mt-4  mt-2"></i>
+                    <i className="las la-syringe md:text-3xl text-2xl ml-1 md:mt-1"></i>
                 </div>
                 <div className='md:visible '>
                     <ul className='flex justify-center items-center gap-10 md:text-[16px] md:visible invisible md:w-full w-40' >

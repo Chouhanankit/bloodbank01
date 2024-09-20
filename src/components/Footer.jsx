@@ -38,7 +38,7 @@ const Footer = () => {
                             </ul>
                         </div>
                     </div>
-                    <hr className='md:w-[71%] w-96 h-[1px] md:mt-20 mt-4 sm:mt-4 bg-white' />
+                    <hr className='md:w-[71%] w-60 h-[1px] md:mt-20 mt-4 sm:mt-4 bg-white' />
                     <p className='mt-6 sm:mt-2 pb-12 md:text-[14px] text-[12px]'>© Blood Bank Donor Management System Design By <span><a href="" className='hover:text-red-500 delay-100'>Ankit Chouhan</a></span></p>
                 </div>
             </div>
