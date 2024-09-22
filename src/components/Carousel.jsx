@@ -33,7 +33,7 @@ const Carousel = () => {
     }, [activeIndex]);
 
     return (
-        <div id="carouselExampleControls" className="relative" data-twe-carousel-init data-twe-ride="carousel">
+        <div id="carouselExampleControls" className="relative shadow-xl shadow-[#605c5c72]" data-twe-carousel-init data-twe-ride="carousel">
             {/* Carousel items */}
             <div className="relative w-full md:h-[110vh]  overflow-hidden">
                 {images.map((image, index) => (

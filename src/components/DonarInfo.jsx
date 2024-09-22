@@ -1,5 +1,4 @@
 import React from 'react'
-import BG from '../assets/BG.svg'
 import DrIMG1 from '../assets/p1.png'
 import DrIMG2 from '../assets/p2.png'
 import DrIMG3 from '../assets/p3.png'
@@ -12,210 +11,239 @@ import DrIMG8 from '../assets/p10.png'
 const DonarInfo = () => {
     return (
         <>
-            <div className='w-full flex flex-col justify-center items-center h-auto relative bg-gradient-to-br from-red-100 '>
-                <h1 className='md:text-5xl text-2xl font-semibold text-gray-800 p-2 mt-10'>Some of the Donar</h1>
+            <div className='w-full flex flex-col justify-center items-center h-auto relative bg-[#E8E8E8] '>
+                <h1 className='md:text-5xl text-2xl font-semibold text-[#4d4d4bee] p-2 mt-10'>SOME OF THE DONOR</h1>
                 <span className='flex justify-evenly items-center gap-2'>
-                    <hr className='md:w-24 w-12 h-[2px] bg-white' />
-                    <i class="las la-stethoscope md:text-4xl text-2xl text-white"></i>
-                    <hr className='md:w-24 w-12 h-[2px] bg-white' />
+                    <hr className='md:w-24 w-12 h-[2px] bg-red-400' />
+                    <i className="las la-stethoscope md:text-4xl text-2xl text-red-400"></i>
+                    <hr className='md:w-24 w-12 h-[2px] bg-red-400' />
                 </span>
-                <img className='absolute bottom-0 z-[-10] opacity-50' src={BG} alt="" />
-                <div className='w-[80%] justify-evenly items-center md:grid md:grid-cols-2 lg:grid-cols-4  grid-cols-1 grid sm:grid-cols-2 sm:flex sm:flex-wrap gap-5 p-5 py-10'>
+                <img className='absolute bottom-0 z-[-10] opacity-50' alt="" />
 
-                    <div className="card mx-auto w-full h-[25rem] max-w-xs border-2 border-blue-800 bg-white p-0 text-gray-800 transition-transform duration-300 ease-in-out hover:scale-105 hover:border-2 hover:border-yellow-400">
-                        <div className="card__hero relative h-[12rem] bg-indigo-500 text-sm">
-                            <div className="card w-full h-[12rem] relative flex flex-col items-center overflow-hidden duration-500">
-                                <img className='w-[200px]' src={DrIMG1} alt="" />
-                                <div className="card__job-title absolute bottom-0 left-0 w-52 text-2xl font-bold bg-red-600 text-white p-2">Akash Singh</div>
-                            </div>
+
+
+
+
+                <div className='w-[80%] justify-evenly items-center md:grid md:grid-cols-2 lg:grid-cols-3  grid-cols-1 grid sm:grid-cols-2 sm:flex sm:flex-wrap gap-5 p-5 py-10'>
+
+
+
+                    <div className="max-w-m w-[300px]  mx-auto bg-white shadow-lg rounded-lg overflow-hidden border-2 border-red-500 bg-gradient-to-t from-[#faf8da] transition-transform duration-300 ease-in-out hover:scale-110 hover:border-blue-500">
+                        <div className="bg-red-500 text-white text-center py-4">
+                            <h2 className="text-2xl font-bold">BLOOD DONOR</h2>
                         </div>
-                        <div className="card__footer gap-4 p-3 font-bold text-sm">
-                            <div className="card__job-summary flex flex-col justify-center items-start gap-3">
-                                <span className='flex justify-center items-center gap-2 mt-4'>
-                                    <h1 className='text-xl'>Gender :</h1>
-                                    <p className='text-xl'>Male</p>
-                                </span>
-                                <span className='flex justify-center items-center gap-3 mt-2'>
-                                    <h1 className='text-[18px]'>Blood Group :</h1>
-                                    <p className='text-2xl text-red-600'>A+</p>
-                                </span>
+                        <div className="p-6">
+                            <div className="flex items-center mb-4">
+                                <img
+                                    className="w-20 h-20 rounded-full border-2 border-red-500 mr-4 bg-gradient-to-r from-[#f57d3cde] to-[#0088ff7a]"
+                                    src={DrIMG1}
+                                    alt="donor profile"
+                                />
+                                <div>
+                                    <h3 className="text-lg font-semibold">VIVEK SHARMA</h3>
+                                    <p className="text-gray-600">Blood Group: <span className="font-bold text-red-500">O+</span></p>
+                                </div>
                             </div>
-                            <button className="card__btn w-full text-center py-2 px-10 my-4 rounded-lg bg-blue-600 text-white text-base md:w-auto hover:bg-red-500 delay-100 ">
-                                Request
-                            </button>
+                            <div className="mb-4">
+                                <p className="text-gray-600">
+                                    <strong>Phone:</strong> +91-9617619801
+                                </p>
+                                <p className="text-gray-600">
+                                    <strong>Email:</strong> sharmavivek@gmail.com
+                                </p>
+                                <p className="text-gray-600">
+                                    <strong>Location:</strong> Indore, MP
+                                </p>
+                            </div>
+                            <div className="text-center">
+                                <button className="bg-red-500 text-white px-4 py-2 rounded-lg shadow hover:bg-red-600">
+                                    Contact Now
+                                </button>
+                            </div>
                         </div>
                     </div>
 
-                    <div className="card mx-auto w-full h-[25rem] max-w-xs border-2 border-blue-800 bg-white p-0 text-gray-800 transition-transform duration-300 ease-in-out hover:scale-105 hover:border-2 hover:border-yellow-400">
-                        <div className="card__hero relative h-[12rem] bg-indigo-500 text-sm">
-                            <div className="card w-full h-[12rem] relative flex flex-col items-center overflow-hidden duration-500">
-                                <img className='w-[200px]' src={DrIMG7} alt="" />
-                                <div className="card__job-title absolute bottom-0 left-0 w-52 text-2xl font-bold bg-red-600 text-white p-2">Virat Patidar</div>
-                            </div>
+                    <div className="max-w-m w-[300px]  mx-auto bg-white shadow-lg rounded-lg overflow-hidden border-2 border-red-500 bg-gradient-to-t from-[#faf8da] transition-transform duration-300 ease-in-out hover:scale-110 hover:border-blue-500">
+                        <div className="bg-red-500 text-white text-center py-4">
+                            <h2 className="text-2xl font-bold">BLOOD DONOR</h2>
                         </div>
-                        <div className="card__footer gap-4 p-3 font-bold text-sm">
-                            <div className="card__job-summary flex flex-col justify-center items-start gap-3">
-                                <span className='flex justify-center items-center gap-2 mt-4'>
-                                    <h1 className='text-xl'>Gender :</h1>
-                                    <p className='text-xl'>Male</p>
-                                </span>
-                                <span className='flex justify-center items-center gap-3 mt-2'>
-                                    <h1 className='text-[18px]'>Blood Group :</h1>
-                                    <p className='text-2xl text-red-600'>C</p>
-                                </span>
+                        <div className="p-6">
+                            <div className="flex items-center mb-4">
+                                <img
+                                    className="w-20 h-20 rounded-full border-2 border-red-500 mr-4 bg-gradient-to-r from-[#f57d3cde] to-[#0088ff7a]"
+                                    src={DrIMG4}
+                                    alt="donor profile"
+                                />
+                                <div>
+                                    <h3 className="text-lg font-semibold">SHUBHMAN JOSHI</h3>
+                                    <p className="text-gray-600">Blood Group: <span className="font-bold text-red-500">A+</span></p>
+                                </div>
                             </div>
-                            <button className="card__btn w-full text-center py-2 px-10 my-4 rounded-lg bg-blue-600 text-white text-base md:w-auto hover:bg-red-500 delay-100 ">
-                                Request
-                            </button>
-                        </div>
-                    </div>
-
-                    <div className="card mx-auto w-full h-[25rem] max-w-xs border-2 border-blue-800 bg-white p-0 text-gray-800 transition-transform duration-300 ease-in-out hover:scale-105 hover:border-2 hover:border-yellow-400">
-                        <div className="card__hero relative h-[12rem] bg-indigo-500 text-sm">
-                            <div className="card w-full h-[12rem] relative flex flex-col items-center overflow-hidden duration-500">
-                                <img className='w-[200px]' src={DrIMG8} alt="" />
-                                <div className="card__job-title absolute bottom-0 left-0 w-52 text-2xl font-bold bg-red-600 text-white p-2">Harsh Patel</div>
+                            <div className="mb-4">
+                                <p className="text-gray-600">
+                                    <strong>Phone:</strong> +91-7856932456
+                                </p>
+                                <p className="text-gray-600">
+                                    <strong>Email:</strong> shubh12@gmail.com
+                                </p>
+                                <p className="text-gray-600">
+                                    <strong>Location:</strong> Bhopal, MP
+                                </p>
                             </div>
-                        </div>
-                        <div className="card__footer gap-4 p-3 font-bold text-sm">
-                            <div className="card__job-summary flex flex-col justify-center items-start gap-3">
-                                <span className='flex justify-center items-center gap-2 mt-4'>
-                                    <h1 className='text-xl'>Gender :</h1>
-                                    <p className='text-xl'>Male</p>
-                                </span>
-                                <span className='flex justify-center items-center gap-3 mt-2'>
-                                    <h1 className='text-[18px]'>Blood Group :</h1>
-                                    <p className='text-2xl text-red-600'>AB+</p>
-                                </span>
+                            <div className="text-center">
+                                <button className="bg-red-500 text-white px-4 py-2 rounded-lg shadow hover:bg-red-600">
+                                    Contact Now
+                                </button>
                             </div>
-                            <button className="card__btn w-full text-center py-2 px-10 my-4 rounded-lg bg-blue-600 text-white text-base md:w-auto hover:bg-red-500 delay-100 ">
-                                Request
-                            </button>
-                        </div>
-                    </div>
-
-                    <div className="card mx-auto w-full h-[25rem] max-w-xs border-2 border-blue-800 bg-white p-0 text-gray-800 transition-transform duration-300 ease-in-out hover:scale-105 hover:border-2 hover:border-yellow-400">
-                        <div className="card__hero relative h-[12rem] bg-indigo-500 text-sm">
-                            <div className="card w-full h-[12rem] relative flex flex-col items-center overflow-hidden duration-500">
-                                <img className='w-[200px]' src={DrIMG2} alt="" />
-                                <div className="card__job-title absolute bottom-0 left-0 w-52 text-2xl font-bold bg-red-600 text-white p-2">Salman Khan</div>
-                            </div>
-                        </div>
-                        <div className="card__footer gap-4 p-3 font-bold text-sm">
-                            <div className="card__job-summary flex flex-col justify-center items-start gap-3">
-                                <span className='flex justify-center items-center gap-2 mt-4'>
-                                    <h1 className='text-xl'>Gender :</h1>
-                                    <p className='text-xl'>Male</p>
-                                </span>
-                                <span className='flex justify-center items-center gap-3 mt-2'>
-                                    <h1 className='text-[18px]'>Blood Group :</h1>
-                                    <p className='text-2xl text-red-600'>B+</p>
-                                </span>
-                            </div>
-                            <button className="card__btn w-full text-center py-2 px-10 my-4 rounded-lg bg-blue-600 text-white text-base md:w-auto hover:bg-red-500 delay-100 ">
-                                Request
-                            </button>
                         </div>
                     </div>
 
 
-                    <div className="card mx-auto w-full h-[25rem] max-w-xs border-2 border-blue-800 bg-white p-0 text-gray-800 transition-transform duration-300 ease-in-out hover:scale-105 hover:border-2 hover:border-yellow-400">
-                        <div className="card__hero relative h-[12rem] bg-indigo-500 text-sm">
-                            <div className="card w-full h-[12rem] relative flex flex-col items-center overflow-hidden duration-500">
-                                <img className='w-[200px]' src={DrIMG3} alt="" />
-                                <div className="card__job-title absolute bottom-0 left-0 w-52 text-2xl font-bold bg-red-600 text-white p-2">Mohit Rathore</div>
-                            </div>
+                    <div className="max-w-m w-[300px]  mx-auto bg-white shadow-lg rounded-lg overflow-hidden border-2 border-red-500 bg-gradient-to-t from-[#faf8da] transition-transform duration-300 ease-in-out hover:scale-110 hover:border-blue-500">
+                        <div className="bg-red-500 text-white text-center py-4">
+                            <h2 className="text-2xl font-bold">BLOOD DONOR</h2>
                         </div>
-                        <div className="card__footer gap-4 p-3 font-bold text-sm">
-                            <div className="card__job-summary flex flex-col justify-center items-start gap-3">
-                                <span className='flex justify-center items-center gap-2 mt-4'>
-                                    <h1 className='text-xl'>Gender :</h1>
-                                    <p className='text-xl'>Male</p>
-                                </span>
-                                <span className='flex justify-center items-center gap-3 mt-2'>
-                                    <h1 className='text-[18px]'>Blood Group :</h1>
-                                    <p className='text-2xl text-red-600'>A</p>
-                                </span>
+                        <div className="p-6">
+                            <div className="flex items-center mb-4">
+                                <img
+                                    className="w-20 h-20 rounded-full border-2 border-red-500 mr-4 bg-gradient-to-r from-[#f57d3cde] to-[#0088ff7a]"
+                                    src={DrIMG2}
+                                    alt="donor profile"
+                                />
+                                <div>
+                                    <h3 className="text-lg font-semibold">SALMAN KHAN</h3>
+                                    <p className="text-gray-600">Blood Group: <span className="font-bold text-red-500">AB+</span></p>
+                                </div>
                             </div>
-                            <button className="card__btn w-full text-center py-2 px-10 my-4 rounded-lg bg-blue-600 text-white text-base md:w-auto hover:bg-red-500 delay-100 ">
-                                Request
-                            </button>
-                        </div>
-                    </div>
-
-
-                    <div className="card mx-auto w-full h-[25rem] max-w-xs border-2 border-blue-800 bg-white p-0 text-gray-800 transition-transform duration-300 ease-in-out hover:scale-105 hover:border-2 hover:border-yellow-400">
-                        <div className="card__hero relative h-[12rem] bg-indigo-500 text-sm">
-                            <div className="card w-full h-[12rem] relative flex flex-col items-center overflow-hidden duration-500">
-                                <img className='w-[200px]' src={DrIMG4} alt="" />
-                                <div className="card__job-title absolute bottom-0 left-0 w-52 text-2xl font-bold bg-red-600 text-white p-2">Anand Yadav</div>
+                            <div className="mb-4">
+                                <p className="text-gray-600">
+                                    <strong>Phone:</strong> +91-8596327412
+                                </p>
+                                <p className="text-gray-600">
+                                    <strong>Email:</strong> khansalman01@gmail.com
+                                </p>
+                                <p className="text-gray-600">
+                                    <strong>Location:</strong> Ujjain, MP
+                                </p>
                             </div>
-                        </div>
-                        <div className="card__footer gap-4 p-3 font-bold text-sm">
-                            <div className="card__job-summary flex flex-col justify-center items-start gap-3">
-                                <span className='flex justify-center items-center gap-2 mt-4'>
-                                    <h1 className='text-xl'>Gender :</h1>
-                                    <p className='text-xl'>Male</p>
-                                </span>
-                                <span className='flex justify-center items-center gap-3 mt-2'>
-                                    <h1 className='text-[18px]'>Blood Group :</h1>
-                                    <p className='text-2xl text-red-600'>B</p>
-                                </span>
+                            <div className="text-center">
+                                <button className="bg-red-500 text-white px-4 py-2 rounded-lg shadow hover:bg-red-600">
+                                    Contact Now
+                                </button>
                             </div>
-                            <button className="card__btn w-full text-center py-2 px-10 my-4 rounded-lg bg-blue-600 text-white text-base md:w-auto hover:bg-red-500 delay-100 ">
-                                Request
-                            </button>
                         </div>
                     </div>
 
 
 
-                    <div className="card mx-auto w-full h-[25rem] max-w-xs border-2 border-blue-800 bg-white p-0 text-gray-800 transition-transform duration-300 ease-in-out hover:scale-105 hover:border-2 hover:border-yellow-400">
-                        <div className="card__hero relative h-[12rem] bg-indigo-500 text-sm">
-                            <div className="card w-full h-[12rem] relative flex flex-col items-center overflow-hidden duration-500">
-                                <img className='w-[200px]' src={DrIMG6} alt="" />
-                                <div className="card__job-title absolute bottom-0 left-0 w-52 text-2xl font-bold bg-red-600 text-white p-2">Neha Sharma</div>
-                            </div>
+
+                    <div className="max-w-m w-[300px]  mx-auto bg-white shadow-lg rounded-lg overflow-hidden border-2 border-red-500 bg-gradient-to-t from-[#faf8da] transition-transform duration-300 ease-in-out hover:scale-110 hover:border-blue-500">
+                        <div className="bg-red-500 text-white text-center py-4">
+                            <h2 className="text-2xl font-bold">BLOOD DONOR</h2>
                         </div>
-                        <div className="card__footer gap-4 p-3 font-bold text-sm">
-                            <div className="card__job-summary flex flex-col justify-center items-start gap-3">
-                                <span className='flex justify-center items-center gap-2 mt-4'>
-                                    <h1 className='text-xl'>Gender :</h1>
-                                    <p className='text-xl'>Female</p>
-                                </span>
-                                <span className='flex justify-center items-center gap-3 mt-2'>
-                                    <h1 className='text-[18px]'>Blood Group :</h1>
-                                    <p className='text-2xl text-red-600'>A+</p>
-                                </span>
+                        <div className="p-6">
+                            <div className="flex items-center mb-4">
+                                <img
+                                    className="w-20 h-20 rounded-full border-2 border-red-500 mr-4 bg-gradient-to-r from-[#f57d3cde] to-[#0088ff7a]"
+                                    src={DrIMG6}
+                                    alt="donor profile"
+                                />
+                                <div>
+                                    <h3 className="text-lg font-semibold">KHUSHI PATEL</h3>
+                                    <p className="text-gray-600">Blood Group: <span className="font-bold text-red-500">B+</span></p>
+                                </div>
                             </div>
-                            <button className="card__btn w-full text-center py-2 px-10 my-4 rounded-lg bg-blue-600 text-white text-base md:w-auto hover:bg-red-500 delay-100 ">
-                                Request
-                            </button>
+                            <div className="mb-4">
+                                <p className="text-gray-600">
+                                    <strong>Phone:</strong> +91-8569564521
+                                </p>
+                                <p className="text-gray-600">
+                                    <strong>Email:</strong> khushi@gmail.com
+                                </p>
+                                <p className="text-gray-600">
+                                    <strong>Location:</strong> Indore, MP
+                                </p>
+                            </div>
+                            <div className="text-center">
+                                <button className="bg-red-500 text-white px-4 py-2 rounded-lg shadow hover:bg-red-600">
+                                    Contact Now
+                                </button>
+                            </div>
                         </div>
                     </div>
 
 
-                    <div className="card mx-auto w-full h-[25rem] max-w-xs border-2 border-blue-800 bg-white p-0 text-gray-800 transition-transform duration-300 ease-in-out hover:scale-105 hover:border-2 hover:border-yellow-400">
-                        <div className="card__hero relative h-[12rem] bg-indigo-500 text-sm">
-                            <div className="card w-full h-[12rem] relative flex flex-col items-center overflow-hidden duration-500">
-                                <img className='w-[200px]' src={DrIMG5} alt="" />
-                                <div className="card__job-title absolute bottom-0 left-0 w-52 text-2xl font-bold bg-red-600 text-white p-2">Kuldeep Joshi</div>
+
+                    <div className="max-w-m w-[300px]  mx-auto bg-white shadow-lg rounded-lg overflow-hidden border-2 border-red-500 bg-gradient-to-t from-[#faf8da] transition-transform duration-300 ease-in-out hover:scale-110 hover:border-blue-500">
+                        <div className="bg-red-500 text-white text-center py-4">
+                            <h2 className="text-2xl font-bold">BLOOD DONOR</h2>
+                        </div>
+                        <div className="p-6">
+                            <div className="flex items-center mb-4">
+                                <img
+                                    className="w-20 h-20 rounded-full border-2 border-red-500 mr-4 bg-gradient-to-r from-[#f57d3cde] to-[#0088ff7a]"
+                                    src={DrIMG3}
+                                    alt="donor profile"
+                                />
+                                <div>
+                                    <h3 className="text-lg font-semibold">RAHUL JAIN</h3>
+                                    <p className="text-gray-600">Blood Group: <span className="font-bold text-red-500">AB+</span></p>
+                                </div>
+                            </div>
+                            <div className="mb-4">
+                                <p className="text-gray-600">
+                                    <strong>Phone:</strong> +91-6989546851
+                                </p>
+                                <p className="text-gray-600">
+                                    <strong>Email:</strong> jainrahul85@gmail.com
+                                </p>
+                                <p className="text-gray-600">
+                                    <strong>Location:</strong> Ratlam, MP
+                                </p>
+                            </div>
+                            <div className="text-center">
+                                <button className="bg-red-500 text-white px-4 py-2 rounded-lg shadow hover:bg-red-600">
+                                    Contact Now
+                                </button>
                             </div>
                         </div>
-                        <div className="card__footer gap-4 p-3 font-bold text-sm">
-                            <div className="card__job-summary flex flex-col justify-center items-start gap-3">
-                                <span className='flex justify-center items-center gap-2 mt-4'>
-                                    <h1 className='text-xl'>Gender :</h1>
-                                    <p className='text-xl'>Male</p>
-                                </span>
-                                <span className='flex justify-center items-center gap-3 mt-2'>
-                                    <h1 className='text-[18px]'>Blood Group :</h1>
-                                    <p className='text-2xl text-red-600'>B+</p>
-                                </span>
+                    </div>
+
+
+
+
+                    <div className="max-w-m w-[300px]  mx-auto bg-white shadow-lg rounded-lg overflow-hidden border-2 border-red-500 bg-gradient-to-t from-[#faf8da] transition-transform duration-300 ease-in-out hover:scale-110 hover:border-blue-500">
+                        <div className="bg-red-500 text-white text-center py-4">
+                            <h2 className="text-2xl font-bold">BLOOD DONOR</h2>
+                        </div>
+                        <div className="p-6">
+                            <div className="flex items-center mb-4">
+                                <img
+                                    className="w-20 h-20 rounded-full border-2 border-red-500 mr-4 bg-gradient-to-r from-[#f57d3cde] to-[#0088ff7a]"
+                                    src={DrIMG7}
+                                    alt="donor profile"
+                                />
+                                <div>
+                                    <h3 className="text-lg font-semibold">MOHAN SINGH</h3>
+                                    <p className="text-gray-600">Blood Group: <span className="font-bold text-red-500">A</span></p>
+                                </div>
                             </div>
-                            <button className="card__btn w-full text-center py-2 px-10 my-4 rounded-lg bg-blue-600 text-white text-base md:w-auto hover:bg-red-500 delay-100 ">
-                                Request
-                            </button>
+                            <div className="mb-4">
+                                <p className="text-gray-600">
+                                    <strong>Phone:</strong> +91-7845961263
+                                </p>
+                                <p className="text-gray-600">
+                                    <strong>Email:</strong> mohansingh20@gmail.com
+                                </p>
+                                <p className="text-gray-600">
+                                    <strong>Location:</strong> Bhopal, MP
+                                </p>
+                            </div>
+                            <div className="text-center">
+                                <button className="bg-red-500 text-white px-4 py-2 rounded-lg shadow hover:bg-red-600">
+                                    Contact Now
+                                </button>
+                            </div>
                         </div>
                     </div>
 

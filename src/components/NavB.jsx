@@ -19,11 +19,9 @@ const NavB = () => {
             <div className={position < 10 ? "sticky top-0 sm:px-4 z-10 w-full h-16 md:pb-0 pb-4 flex justify-evenly items-center bg-blue-600 text-white transition-all duration-1000" :
                 "absolute top-18 z-10 w-full md:h-24 h-16 flex pb-4  md:pb-0 justify-evenly items-center bg-gradient-to-tr from-[#ffffff97] text-white transition-all duration-1000"} >
                 <div className='w-20 md:text-[30px] lg:text-4xl text-2xl  font-bold italic flex justify-center items-center md:p-0 pl-16 md:mt-0 mt-4 '>
-                    <span>B</span>
-                    <span>B</span>
-                    <span className='text-red-500'>D</span>
-                    <span className='text-red-500'>M</span>
-                    <span className='text-red-500'>S</span>
+                    <span>RAK</span>
+                    <span className='text-yellow-400 md:text-5xl text-4xl'>T</span>
+                    <span className='text-red-500'>DAAN</span>
                     <i className="las la-syringe md:text-3xl text-2xl ml-1 md:mt-1"></i>
                 </div>
                 <div className='md:visible '>
