@@ -22,3 +22,7 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+
+
+#ERROR NOTES TO SOLVE LATER
+Nav B :- (LogIn button responsive time show....visible and invisible property)

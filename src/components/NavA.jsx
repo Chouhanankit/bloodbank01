@@ -4,7 +4,7 @@ const NavA = () => {
     return (
         <>
             <>
-                <div className='w-full h-16 bg-[rgb(255,0,0)] text-white md:flex justify-evenly items-center flex  text-xs md:text-[16px]'>
+                <div className='w-full relative z-20 h-16 bg-[rgb(255,0,0)] text-white md:flex justify-evenly items-center flex  text-xs md:text-[16px]'>
 
                     <div className='w-full md:flex md:gap-2 justify-center items-center flex-col-2 text-center' >
                         <div className='Logo'>

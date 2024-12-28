@@ -11,7 +11,7 @@ import DrIMG8 from '../assets/p10.png'
 const DonarInfo = () => {
     return (
         <>
-            <div className='w-full flex flex-col justify-center items-center h-auto relative bg-[#E8E8E8] '>
+            <div className='w-full flex flex-col justify-center items-center h-auto relative bg-[#E8E8E8]'>
                 <h1 className='md:text-5xl text-2xl font-semibold text-[#4d4d4bee] p-2 mt-10'>SOME OF THE DONOR</h1>
                 <span className='flex justify-evenly items-center gap-2'>
                     <hr className='md:w-24 w-12 h-[2px] bg-red-400' />
@@ -19,16 +19,8 @@ const DonarInfo = () => {
                     <hr className='md:w-24 w-12 h-[2px] bg-red-400' />
                 </span>
                 <img className='absolute bottom-0 z-[-10] opacity-50' alt="" />
-
-
-
-
-
-                <div className='w-[80%] justify-evenly items-center md:grid md:grid-cols-2 lg:grid-cols-3  grid-cols-1 grid sm:grid-cols-2 sm:flex sm:flex-wrap gap-5 p-5 py-10'>
-
-
-
-                    <div className="max-w-m w-[300px]  mx-auto bg-white shadow-lg rounded-lg overflow-hidden border-2 border-red-500 bg-gradient-to-t from-[#faf8da] transition-transform duration-300 ease-in-out hover:scale-110 hover:border-blue-500">
+                <div className='md:w-[80%] w-full justify-evenly items-center md:grid md:grid-cols-2 lg:grid-cols-3  grid-cols-1 grid sm:grid-cols-2 sm:flex sm:flex-wrap gap-5 p-5 py-10'>
+                    <div className="max-w-m md:w-[300px]  mx-auto bg-white shadow-lg rounded-lg overflow-hidden border-2 border-red-500 bg-gradient-to-t from-[#faf8da] transition-transform duration-300 ease-in-out hover:scale-110 hover:border-blue-500">
                         <div className="bg-red-500 text-white text-center py-4">
                             <h2 className="text-2xl font-bold">BLOOD DONOR</h2>
                         </div>
@@ -63,7 +55,7 @@ const DonarInfo = () => {
                         </div>
                     </div>
 
-                    <div className="max-w-m w-[300px]  mx-auto bg-white shadow-lg rounded-lg overflow-hidden border-2 border-red-500 bg-gradient-to-t from-[#faf8da] transition-transform duration-300 ease-in-out hover:scale-110 hover:border-blue-500">
+                    <div className="max-w-m md:w-[300px]  mx-auto bg-white shadow-lg rounded-lg overflow-hidden border-2 border-red-500 bg-gradient-to-t from-[#faf8da] transition-transform duration-300 ease-in-out hover:scale-110 hover:border-blue-500">
                         <div className="bg-red-500 text-white text-center py-4">
                             <h2 className="text-2xl font-bold">BLOOD DONOR</h2>
                         </div>
@@ -99,7 +91,7 @@ const DonarInfo = () => {
                     </div>
 
 
-                    <div className="max-w-m w-[300px]  mx-auto bg-white shadow-lg rounded-lg overflow-hidden border-2 border-red-500 bg-gradient-to-t from-[#faf8da] transition-transform duration-300 ease-in-out hover:scale-110 hover:border-blue-500">
+                    <div className="max-w-m md:w-[300px]  mx-auto bg-white shadow-lg rounded-lg overflow-hidden border-2 border-red-500 bg-gradient-to-t from-[#faf8da] transition-transform duration-300 ease-in-out hover:scale-110 hover:border-blue-500">
                         <div className="bg-red-500 text-white text-center py-4">
                             <h2 className="text-2xl font-bold">BLOOD DONOR</h2>
                         </div>
@@ -137,7 +129,7 @@ const DonarInfo = () => {
 
 
 
-                    <div className="max-w-m w-[300px]  mx-auto bg-white shadow-lg rounded-lg overflow-hidden border-2 border-red-500 bg-gradient-to-t from-[#faf8da] transition-transform duration-300 ease-in-out hover:scale-110 hover:border-blue-500">
+                    <div className="max-w-m md:w-[300px]  mx-auto bg-white shadow-lg rounded-lg overflow-hidden border-2 border-red-500 bg-gradient-to-t from-[#faf8da] transition-transform duration-300 ease-in-out hover:scale-110 hover:border-blue-500">
                         <div className="bg-red-500 text-white text-center py-4">
                             <h2 className="text-2xl font-bold">BLOOD DONOR</h2>
                         </div>
@@ -174,7 +166,7 @@ const DonarInfo = () => {
 
 
 
-                    <div className="max-w-m w-[300px]  mx-auto bg-white shadow-lg rounded-lg overflow-hidden border-2 border-red-500 bg-gradient-to-t from-[#faf8da] transition-transform duration-300 ease-in-out hover:scale-110 hover:border-blue-500">
+                    <div className="max-w-m md:w-[300px]  mx-auto bg-white shadow-lg rounded-lg overflow-hidden border-2 border-red-500 bg-gradient-to-t from-[#faf8da] transition-transform duration-300 ease-in-out hover:scale-110 hover:border-blue-500">
                         <div className="bg-red-500 text-white text-center py-4">
                             <h2 className="text-2xl font-bold">BLOOD DONOR</h2>
                         </div>
@@ -212,7 +204,7 @@ const DonarInfo = () => {
 
 
 
-                    <div className="max-w-m w-[300px]  mx-auto bg-white shadow-lg rounded-lg overflow-hidden border-2 border-red-500 bg-gradient-to-t from-[#faf8da] transition-transform duration-300 ease-in-out hover:scale-110 hover:border-blue-500">
+                    <div className="max-w-m md:w-[300px]  mx-auto bg-white shadow-lg rounded-lg overflow-hidden border-2 border-red-500 bg-gradient-to-t from-[#faf8da] transition-transform duration-300 ease-in-out hover:scale-110 hover:border-blue-500">
                         <div className="bg-red-500 text-white text-center py-4">
                             <h2 className="text-2xl font-bold">BLOOD DONOR</h2>
                         </div>
