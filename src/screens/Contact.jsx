@@ -1,11 +1,10 @@
-'use client'
 
 import React from 'react'
 import { useState } from 'react'
 import { ChevronDownIcon } from '@heroicons/react/16/solid'
 import { Field, Label, Switch } from '@headlessui/react'
 
-const Contact = () => {
+const ConatctList = () => {
     const [agreed, setAgreed] = useState(false)
     return (
         <div className="isolate bg-red-500 px-6 py-24 sm:py-32 lg:px-8">
@@ -138,7 +137,6 @@ const Contact = () => {
             </form>
         </div>
     )
-
 }
 
-export default Contact
+export default ContactList
